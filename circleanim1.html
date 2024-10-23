@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+<style>
+          
+          .main_container{
+                    height: 100px;;
+                    width: 100px;
+                    background-color: red;
+                    position: relative;
+                    border-radius: 50%;
+                    animation: circle 2s infinite alternate;
+          }
+          @keyframes circle{
+          from{
+                    top: 10vh;
+          }
+          to{
+                   top: 50vh;
+                   background-color: rgb(249, 220, 220);
+          }
+          }
+
+          @media screen and(min-width:390px){
+                    .main_container{
+                    background-color: red;
+                    position: relative;
+                    border-radius: 50%;
+                    animation: circle 2s infinite alternate;
+          } 
+          }
+          @media screen and(min-height:844px){
+                    .main_container{
+                    background-color: red;
+                    position: relative;
+                    border-radius: 50%;
+                    animation: circle 2s infinite alternate;
+          } 
+          }
+
+</style>
+</head>
+<body>
+          
+          <div class="main_container"></div>
+         
+</body>
+</html>
